@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  color: #000000;
+  font-family: Georgia, "Times New Roman", serif;
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+header {
+  background-color: #c07711;
+  color: #ffffff;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav {
+  background-color: #f5f1dc;
+  text-align: center;
+  padding: 10px;
+  border-top: 2px solid #8b4a08;
+  border-bottom: 2px solid #8b4a08;
+}
+
+nav a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 15px;
+}
+
+#hero {
+  height: 240px;
+  margin: 15px;
+  border: 2px solid #c07711;
+  background-image: url(hero.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+aside {
+  float: left;
+  width: 250px;
+  margin-left: 15px;
+  padding: 10px;
+  background-color: #f5f1dc;
+  border: 2px solid #c07711;
+}
+
+main {
+  margin-left: 300px;
+  padding: 15px;
+}
+
+.imagebox {
+  border: 2px solid #c07711;
+  text-align: center;
+  padding: 40px;
+  margin: 15px 0;
+}
+
+.section {
+  float: left;
+  width: 33%;
+}
+
+footer {
+  clear: both;
+  background-color: #c07711;
+  color: #ffffff;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  border: 2px solid #c07711;
+  margin: 10px 0;
+}
+
+#wrapper {
+  width: 80%;
+  min-width: 900px;
+  max-width: 1200px;
+  margin: auto;
+  background-color: #ffffff;
+}
