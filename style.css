@@ -93,3 +93,59 @@ img {
   margin: auto;
   background-color: #ffffff;
 }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 15px 0;
+}
+
+th {
+  background-color: #c07711;
+  color: white;
+}
+
+td, th {
+  border: 2px solid #c07711;
+  padding: 8px;
+  text-align: left;
+}
+
+form {
+  border: 2px solid #c07711;
+  padding: 15px;
+  background-color: #f5f1dc;
+}
+
+form h3 {
+  margin-top: 10px;
+}
+
+input, textarea, select {
+  width: 95%;
+  padding: 6px;
+  margin-top: 5px;
+  border: 2px solid #c07711;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+input[type="submit"] {
+  width: auto;
+  background-color: #c07711;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #944a0a;
+}
+
+.stagevideo {
+  width: 70%;
+  max-width: 700px;
+  display: block;
+  margin: 15px auto;
+  border: 2px solid #c07711;
+}
